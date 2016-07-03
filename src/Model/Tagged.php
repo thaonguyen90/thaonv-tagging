@@ -1,6 +1,6 @@
-<?php namespace Thaonv\Tagging\Model;
+<?php namespace Conner\Tagging\Model;
 
-use Thaonv\Tagging\Contracts\TaggingUtility;
+use Conner\Tagging\Contracts\TaggingUtility;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 /**

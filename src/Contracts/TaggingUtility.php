@@ -1,4 +1,4 @@
-<?php namespace Thaonv\Tagging\Contracts;
+<?php namespace Conner\Tagging\Contracts;
 
 /**
  * Intergace of utility functions to help with various tagging functionality.

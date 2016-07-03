@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Thaonv\Tagging\Taggable;
+use Conner\Tagging\Taggable;
 use Illuminate\Database\Capsule\Manager as DB;
 
 class CommonUsageTest extends TestCase

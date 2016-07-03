@@ -1,10 +1,10 @@
 <?php
 
-namespace Thaonv\Tagging\Providers;
+namespace Conner\Tagging\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Thaonv\Tagging\Contracts\TaggingUtility;
-use Thaonv\Tagging\Util;
+use Conner\Tagging\Contracts\TaggingUtility;
+use Conner\Tagging\Util;
 
 /**
  * Copyright (C) 2014 Robert Conner

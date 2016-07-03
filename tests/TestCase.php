@@ -1,6 +1,6 @@
 <?php
 
-use Thaonv\Tagging\Providers\TaggingServiceProvider;
+use Conner\Tagging\Providers\TaggingServiceProvider;
 
 abstract class TestCase extends Orchestra\Testbench\TestCase
 {

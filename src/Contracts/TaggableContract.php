@@ -1,4 +1,4 @@
-<?php namespace Thaonv\Tagging\Contracts;
+<?php namespace Conner\Tagging\Contracts;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Database\Eloquent\Collection;

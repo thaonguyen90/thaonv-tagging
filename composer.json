@@ -1,6 +1,6 @@
 {
 	"name": "thaonv/laravel-tagging",
-	"description": "",
+	"description": "Thaonv Taggable.",
 	"license": "MIT",
 	"keywords": [],
 	"minimum-stability": "dev",
@@ -23,7 +23,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Thaonv\\Tagging\\": "src/"
+			"Conner\\Tagging\\": "src/"
 		}
 	},
 	"autoload-dev": {

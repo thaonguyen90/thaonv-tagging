@@ -1,6 +1,6 @@
-<?php namespace Thaonv\Tagging;
+<?php namespace Conner\Tagging;
 
-use Thaonv\Tagging\Contracts\TaggingUtility;
+use Conner\Tagging\Contracts\TaggingUtility;
 
 /**
  * Utility functions to help with various tagging functionality.
@@ -217,6 +217,6 @@ class Util implements TaggingUtility
 	 */
 	public function tagModelString()
 	{
-		return config('tagging.tag_model', '\Thaonv\Tagging\Model\Tag');
+		return config('tagging.tag_model', '\Conner\Tagging\Model\Tag');
 	}
 }
