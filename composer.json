@@ -1,0 +1,34 @@
+{
+	"name": "thaonguyen90/laravel-tagging",
+	"description": "Taggable.",
+	"license": "MIT",
+	"keywords": ["tag", "tags", "tagging", "laravel", "taggable", "tagged", "eloquent", "laravel5"],
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "",
+			"email": ""
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"illuminate/database": ">= 5.0",
+		"illuminate/support": ">= 5.0"
+	},
+	"require-dev": {
+		"orchestra/testbench": "~3.0",
+		"phpunit/phpunit": "~4.0",
+		"mockery/mockery": "~0.9",
+		"vlucas/phpdotenv": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Conner\\Tagging\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"classmap": [
+			"tests/TestCase.php"
+		]
+	}
+}
