@@ -1,12 +1,13 @@
 {
 	"name": "thaonv/laravel-tagging",
 	"description": "",
+	"license": "MIT",
 	"keywords": [],
 	"minimum-stability": "dev",
 	"authors": [
 		{
-			"name": "",
-			"email": ""
+			"name": "thaonv",
+			"email": "thaonguyenvan90@gmail.com"
 		}
 	],
 	"require": {
