@@ -2,6 +2,7 @@
 	"name": "thaonv/laravel-tagging",
 	"description": "",
 	"keywords": [],
+	"minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "",
