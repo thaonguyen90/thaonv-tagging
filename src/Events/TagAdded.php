@@ -1,4 +1,4 @@
-<?php namespace Conner\Tagging\Events;
+<?php namespace Thaonv\Tagging\Events;
 
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Database\Eloquent\Model;

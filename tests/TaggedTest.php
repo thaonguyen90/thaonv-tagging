@@ -1,6 +1,6 @@
 <?php
 
-use Conner\Tagging\Model\Tagged;
+use Thaonv\Tagging\Model\Tagged;
 
 class TaggedTest extends TestCase
 {

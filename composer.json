@@ -1,9 +1,7 @@
 {
-	"name": "thaonguyen90/laravel-tagging",
-	"description": "Taggable.",
-	"license": "MIT",
-	"keywords": ["tag", "tags", "tagging", "laravel", "taggable", "tagged", "eloquent", "laravel5"],
-	"minimum-stability": "dev",
+	"name": "thaonv/laravel-tagging",
+	"description": "",
+	"keywords": [],
 	"authors": [
 		{
 			"name": "",
@@ -23,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Conner\\Tagging\\": "src/"
+			"Thaonv\\Tagging\\": "src/"
 		}
 	},
 	"autoload-dev": {

@@ -1,6 +1,6 @@
 <?php
 
-use Conner\Tagging\Util;
+use Thaonv\Tagging\Util;
 
 class UtilTest extends PHPUnit_Framework_TestCase
 {

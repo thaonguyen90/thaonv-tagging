@@ -1,11 +1,11 @@
 <?php
 
-namespace Conner\Tagging;
+namespace Thaonv\Tagging;
 
-use Conner\Tagging\Contracts\TaggingUtility;
-use Conner\Tagging\Events\TagAdded;
-use Conner\Tagging\Events\TagRemoved;
-use Conner\Tagging\Model\Tagged;
+use Thaonv\Tagging\Contracts\TaggingUtility;
+use Thaonv\Tagging\Events\TagAdded;
+use Thaonv\Tagging\Events\TagRemoved;
+use Thaonv\Tagging\Model\Tagged;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Config;
 
@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Config;
  */
 trait Taggable
 {
-	/** @var \Conner\Tagging\Contracts\TaggingUtility **/
+	/** @var \Thaonv\Tagging\Contracts\TaggingUtility **/
 	static $taggingUtility;
 
     /**
@@ -60,7 +60,7 @@ trait Taggable
 	 */
 	public function tagged()
 	{
-		return $this->morphMany('Conner\Tagging\Model\Tagged', 'taggable')->with('tag');
+		return $this->morphMany('Thaonv\Tagging\Model\Tagged', 'taggable')->with('tag');
 	}
 
 	/**
